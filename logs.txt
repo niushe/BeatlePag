@@ -1,0 +1,4 @@
+1-9369192 (HEAD -> master, css) subida de index e imgs
+
+2-a043402 (HEAD -> css) subida de css e animaciones
+9369192 (master) subida de index e imgs
