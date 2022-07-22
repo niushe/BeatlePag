@@ -37,7 +37,11 @@ background-image: repeating-linear-gradient(45deg, #414141 0, brown 1px, #2a2a2a
 					color: white;
 					font-weight: 500;
 					background-size: 100% 2px;
-				}	
+				}
+
+.navbar-toggler{
+	background-color: rgba(255, 255, 255, .6) !important;
+}					
 
 #botonera img{
 	width: 150px;

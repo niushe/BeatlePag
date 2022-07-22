@@ -49,36 +49,39 @@ legend{
                     background-size: 100% 2px;
                 }   
 
+.navbar-toggler{
+    background-color: rgba(255, 255, 255, .6) !important;
+}
+
 #botonera img{
     width: 150px;
-}   
+}
 
-.fieldset__info--personal{
-    width: 53rem;
+.info{
+    text-align: center;
+}
+
+.info-de-venta{
+    width: 50%;
+    margin-bottom: 1rem;
     margin-top: 1rem;
-    margin-bottom: 1rem;
     background-color: gray;
 }
 
-.fieldset__info--de--venta{
-    width: 7rem;
+.info-de-envio{
+    width: 50%;
     margin-bottom: 1rem;
+    margin-top: 1rem;
     background-color: gray;
 }
 
-.fieldset__info--de--envio{
-    width: 13rem;
-    margin-bottom: 1rem;
-    background-color: gray;
+.header {
+    color: black;
+    font-size: 27px;
+    padding: 10px;
 }
 
-.fieldset__newsletter{
-    width: 10rem;
-    margin-bottom: 1rem;
-    background-color: gray;
-}
-
-.label__mensaje{
-    border: solid 1px grey;
-    background-color: gray;
+.bigicon {
+    font-size: 35px;
+    color: rgba(62, 164, 221, 0.7);
 }

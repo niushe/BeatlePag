@@ -28,28 +28,28 @@ background-image: repeating-linear-gradient(45deg, #414141 0, brown 1px, #2a2a2a
 h1{
 	font-size: 3rem;
 	font-family: 'bootleregular';
-	color: black;
+	color: white;
 	text-align: center;
-	text-shadow: 1.5px 1.5px 1.5px white,
-				1.5px 1.5px 1.5px white;
+	text-shadow: 1.5px 1.5px 1.5px black,
+				1.5px 1.5px 1.5px black;
 }
 
 h2{
 	font-size: 2rem;
 	font-family: 'bootleregular';
-	color: black;
+	color: white;
 	text-align: center;
-	text-shadow: 1.5px 1.5px 1.5px white,
-				1.5px 1.5px 1.5px white;
+	text-shadow: 1.5px 1.5px 1.5px black,
+				1.5px 1.5px 1.5px black;
 }
 
 h3{
 	font-size: 1rem;
 	font-family: 'Anton';
-	color: #9F1515;
+	color: #D95959;
 	text-align: center;
-	text-shadow: 1.5px 1.5px 1.5px white,
-				1.5px 1.5px 1.5px white;
+	text-shadow: 1.5px 1.5px 1.5px black,
+				1.5px 1.5px 1.5px black;
 }
 
 			.main_nav ul li a{
@@ -70,6 +70,14 @@ h3{
 					background-size: 100% 2px;
 				}	
 
+.navbar-toggler{
+	background-color: rgba(255, 255, 255, .6) !important;
+}
+
+.beatle-pic{
+	margin-bottom: 1rem;
+}				
+
 #botonera img{
 	width: 150px;
 
@@ -79,5 +87,5 @@ h3{
 	color: white;
 	width: 70%;
 	border: solid 3px black;
-	background-color: black;
+	background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(23,18,18,1) 71%, rgba(48,0,0,1) 100%);
 }
